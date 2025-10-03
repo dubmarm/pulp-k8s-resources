@@ -34,7 +34,7 @@ operator:
       cpu: 10m
       memory: 64Mi
   relatedImages:
-    pulp: quay.io/pulp/pulp-minimal:stable
+    pulp: quay.io/pulp/pulp:stable
     pulpWeb: quay.io/pulp/pulp-web:stable
     redis: docker.io/library/redis:latest
     postgres: docker.io/library/postgres:13

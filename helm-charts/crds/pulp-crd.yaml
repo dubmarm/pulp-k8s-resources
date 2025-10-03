@@ -7129,10 +7129,10 @@ spec:
                   Default: "180s"
                 type: string
               image:
-                default: quay.io/pulp/pulp-minimal
+                default: quay.io/pulp/pulp
                 description: |-
                   The image name (repo name) for the pulp image.
-                  Default: "quay.io/pulp/pulp-minimal:stable"
+                  Default: "quay.io/pulp/pulp:stable"
                 type: string
               image_pull_policy:
                 description: Image pull policy for container image.
